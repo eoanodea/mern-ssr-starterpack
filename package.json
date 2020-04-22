@@ -1,15 +1,24 @@
 {
-  "name": "mern-music-emotions",
+  "name": "typescript-mern-ssr-starterpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter pack for creating a Server-side rendered MERN Stack application written in typescript. The application is bootstrapped with Material UI with a pre defined theme.",
   "main": "index.js",
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "node",
+    "mern",
+    "typescript",
+    "MaterialUI"
+  ],
   "scripts": {
     "dev": "nodemon",
-    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.ts"
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eoanodea/mern-music-emotions.git"
+    "url": "https://github.com/eoanodea/mern-ssr-starterpack.git"
   },
   "author": "Eoan O'Dea",
   "license": "MIT",
